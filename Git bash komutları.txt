@@ -1,0 +1,80 @@
+Git sistemine kendini tanıtma(kayıt);
+	Kullanıcı adı: git config --global user.name "Adınız"
+		Denetlemek için: git config --global user.name
+
+	E-Posta: git config --global user.email "asd@dsa.com"
+		Denetlemek için: git config --global user.email
+
+
+Proje dizini oluşturma: git init
+
+
+Git geçiş bölgesine(Staging Area) tüm dosyaları eklemek: git add .
+	Tek dosya eklemek: git add ad.uzantı
+
+
+Git geçiş bölgesinden tüm dosyaları çıkarmak: use "git restore --staged .
+	Tek dosya çıkarmak use "git restore --staged ad.uzantı
+
+
+Git deposuna(Git Repository) dosyaları eklemek: git commit -m "Bilgilendirme metni"
+
+
+Sürümleri listelemek: git log
+
+
+Proje dosyalarının durumunu göstermek: git status
+
+
+Dosyalardaki değişiklikleri listelemek: git diff
+	Tek dosya için: git dif ad.uzantı
+	
+	Geçiş bölgesi ile git deposu arasındaki değişiklikleri listelemek: git diff --staged
+
+
+Dizindeki elle silinmiş dosyaları geçiş bölgesine bildirme: git rm/add ad.uzantı
+
+
+Dizinden dosya silme: git rm ad.uzantı
+
+
+Dizinden klasör silme: git rm -r klasöradı/
+
+
+El ile adı değiştirilen dosyayı geçiş bölgesine bildirmek: git add .
+
+
+Ad değiştirme: git mv ilkad.uzantı sonrakiad.uzantı
+
+
+Dosyayı başka bir dizine taşıma: git mv ad.uzantı klasöradı/
+
+
+Dosyadaki değişikliği bir önceki haline getirme: git checkout -- ad.uzantı
+
+
+Silinen dosyayı geri getirme: git checkout -- ad.uzantı
+
+
+Geçiş bölgesindeki değişikliği önceki hale getirme: git reset HEAD ad.uzantı
+
+
+Sürüm değiştirme: git checkout sürümkodu -- .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
