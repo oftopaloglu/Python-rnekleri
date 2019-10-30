@@ -1,1 +1,1 @@
-# Yazdığım küçük python uygulamaları.
+# Yazdığım küçük uygulamalar.
